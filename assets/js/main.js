@@ -61,4 +61,7 @@ var arr = [
   }
   
 ];
+arr.forEach(function(e){
+	document.getElementById("mostrar-10").innerHTML+=e.title +"<br>"
+});
 
