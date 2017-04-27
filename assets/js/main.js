@@ -64,4 +64,9 @@ var arr = [
 arr.forEach(function(e){
 	document.getElementById("mostrar-10").innerHTML+=e.title +"<br>"
 });
-
+function lista(){
+	var input = document.getElementById("tareas");
+	var contenedor = document.getElementById("mostrar-tareas");
+	contenedor.innerHTML+=input.value + "<br>"
+	input.value="";
+}

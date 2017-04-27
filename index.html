@@ -10,42 +10,14 @@
 	<div id="mostrar-10"></div>
 </p>
 <hr>
-<div class = "contenedor">
-	<p>
-		<label for="nueva-tarea">Añadir Tarea</label>
-		<input id="nueva-tarea" type="text">
-		<button>Añadir</button>
-	</p>
-	<h3>Mis tareas</h3>
-		<ul id="tarea-incompleta">
-			<li>
-				<input type="checkbox">
-				<label for="">Pagar Cuentas	</label>
-				<input type="text">
-				<button class="editar">Editar</button>
-				<button class="borrar">Borrar</button>
-			</li>
 
-			<li class="modo-edicion">
-				<input type="checkbox">
-				<label for="">Ir de Compras</label>
-				<input type="text" value="Ir de Compras">
-				<button class="editar">Editar</button>
-				<button class="borrar">Borrar</button>
-			</li>
-		</ul>
-		<h3>Tareas Realizadas</h3>
-		<ul id="tarea-completa">
-		<li>
-			<input type="checkbox" checked="">
-			<label for="">Ver al Doctor</label>
-			<input type="text">
-			<button class="editar">Editar</button>
-			<button class="borrar">Borrar</button>
-		</li>
-			
-		</ul>
-</div>
+	<h2>Lista de Tareas</h2>
+	<label for="tareas">Ingresar tareas</label>
+	<input type="text" id="tareas">
+	<button id="agregar" onclick="lista()">Agregar</button>
+	
+	
+<div id="mostrar-tareas" class = "contenedor"></div>
 
 	<script src="assets/js/main.js"></script>
 
